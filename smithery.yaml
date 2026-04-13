@@ -1,0 +1,10 @@
+name: lorem-ipsum-ai-mcp
+description: "MEOK AI Labs — lorem-ipsum-ai-mcp"
+vendor: MEOK AI Labs
+homepage: https://meok.ai
+repository: https://github.com/CSOAI-ORG/lorem-ipsum-ai-mcp
+license: MIT
+categories: [Utilities, Content]
+tags: [lorem-ipsum, placeholder-text, dummy-content, text-generation]
+runtime: python
+entrypoint: server.py
