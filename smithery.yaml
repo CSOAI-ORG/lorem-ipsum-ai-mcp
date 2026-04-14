@@ -1,10 +1,31 @@
 name: lorem-ipsum-ai-mcp
-description: "MEOK AI Labs — lorem-ipsum-ai-mcp"
-vendor: MEOK AI Labs
-homepage: https://meok.ai
-repository: https://github.com/CSOAI-ORG/lorem-ipsum-ai-mcp
-license: MIT
-categories: [Utilities, Content]
-tags: [lorem-ipsum, placeholder-text, dummy-content, text-generation]
-runtime: python
-entrypoint: server.py
+description: "lorem-ipsum-ai-mcp \u2014 Built by [MEOK AI Labs](https://meok.ai)"
+version: 1.0.0
+tools:
+- name: generate_lorem
+  description: MEOK AI Labs tool.
+  parameters:
+  - name: paragraphs
+    type: integer
+    required: false
+- name: generate_words
+  description: MEOK AI Labs tool.
+  parameters:
+  - name: count
+    type: integer
+    required: false
+- name: generate_sentences
+  description: MEOK AI Labs tool.
+  parameters:
+  - name: count
+    type: integer
+    required: false
+- name: generate_themed
+  description: MEOK AI Labs tool.
+  parameters:
+  - name: theme
+    type: string
+    required: true
+  - name: paragraphs
+    type: integer
+    required: false

@@ -1,20 +1,64 @@
 {
   "name": "lorem-ipsum-ai-mcp",
-  "description": "MEOK AI Labs \u2014 lorem-ipsum-ai-mcp",
-  "vendor": "MEOK AI Labs",
-  "homepage": "https://meok.ai",
-  "repository": "https://github.com/CSOAI-ORG/lorem-ipsum-ai-mcp",
-  "runtime": "python",
-  "entrypoint": "server.py",
+  "description": "lorem-ipsum-ai-mcp \u2014 Built by [MEOK AI Labs](https://meok.ai)",
+  "version": "1.0.0",
   "tools": [
-    "run"
-  ],
-  "categories": [
-    "Utilities",
-    "Content"
-  ],
-  "pricing": {
-    "free": "50 calls/day",
-    "pro": "$9/mo"
-  }
+    {
+      "name": "generate_lorem",
+      "description": "MEOK AI Labs tool.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "paragraphs": {
+            "type": "integer"
+          }
+        },
+        "required": []
+      }
+    },
+    {
+      "name": "generate_words",
+      "description": "MEOK AI Labs tool.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "count": {
+            "type": "integer"
+          }
+        },
+        "required": []
+      }
+    },
+    {
+      "name": "generate_sentences",
+      "description": "MEOK AI Labs tool.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "count": {
+            "type": "integer"
+          }
+        },
+        "required": []
+      }
+    },
+    {
+      "name": "generate_themed",
+      "description": "MEOK AI Labs tool.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "theme": {
+            "type": "string"
+          },
+          "paragraphs": {
+            "type": "integer"
+          }
+        },
+        "required": [
+          "theme"
+        ]
+      }
+    }
+  ]
 }
