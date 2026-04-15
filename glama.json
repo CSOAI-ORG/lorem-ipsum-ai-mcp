@@ -1,0 +1,10 @@
+{
+  "name": "lorem-ipsum-ai-mcp",
+  "description": "MEOK AI Labs \u2014 lorem-ipsum-ai-mcp",
+  "vendor": "MEOK AI Labs",
+  "homepage": "https://meok.ai",
+  "repository": "https://github.com/CSOAI-ORG/lorem-ipsum-ai-mcp",
+  "license": "MIT",
+  "runtime": "python",
+  "entryPoint": "mcp-wrapper.py"
+}
