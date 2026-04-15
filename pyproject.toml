@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 [project]
 name = "lorem-ipsum-ai-mcp"
 version = "1.0.0"
-description = "MEOK AI Labs — lorem-ipsum-ai-mcp"
+description = "Lorem Ipsum Ai automation via MCP. Includes generate lorem, generate words, generate sentences. By MEOK AI Labs."
 license = {file = "LICENSE"}
 requires-python = ">=3.10"
 authors = [{name = "MEOK AI Labs", email = "nicholas@meok.ai"}]

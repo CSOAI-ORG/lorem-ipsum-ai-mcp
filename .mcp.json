@@ -1,6 +1,6 @@
 {
   "name": "lorem-ipsum-ai-mcp",
-  "description": "> **By [MEOK AI Labs](https://meok.ai)** \u2014 MEOK AI Labs \u2014 Generate placeholder text in various styles.",
+  "description": "Lorem Ipsum Ai automation via MCP. Includes generate lorem, generate words, generate sentences. By MEOK AI Labs.",
   "version": "1.0.0",
   "tools": [
     {
