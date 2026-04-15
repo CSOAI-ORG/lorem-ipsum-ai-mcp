@@ -1,5 +1,5 @@
 name: lorem-ipsum-ai-mcp
-description: "lorem-ipsum-ai-mcp \u2014 Built by [MEOK AI Labs](https://meok.ai)"
+description: "MEOK AI Labs \u2014 Generate placeholder text in various styles."
 version: 1.0.0
 tools:
 - name: generate_lorem

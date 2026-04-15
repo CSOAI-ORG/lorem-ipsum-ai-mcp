@@ -1,6 +1,6 @@
 {
   "name": "lorem-ipsum-ai-mcp",
-  "description": "lorem-ipsum-ai-mcp \u2014 Built by [MEOK AI Labs](https://meok.ai)",
+  "description": "> **By [MEOK AI Labs](https://meok.ai)** \u2014 MEOK AI Labs \u2014 Generate placeholder text in various styles.",
   "version": "1.0.0",
   "tools": [
     {
