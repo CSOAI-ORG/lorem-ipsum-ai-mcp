@@ -96,6 +96,13 @@ def generate_paragraphs(count: int = 3, style: str = "lorem", start_with_lorem: 
     When NOT to use:
         Not suitable for real-time production decision-making without
         human review of results.
+
+    Args:
+        count (int): The count to analyze or process.
+        style (str): The style to analyze or process.
+        start_with_lorem (bool): The start with lorem to analyze or process.
+        api_key (str): The api key to analyze or process.
+
     Behavioral Transparency:
         - Side Effects: This tool is read-only and produces no side effects. It does not modify
           any external state, databases, or files. All output is computed in-memory and returned
@@ -160,6 +167,14 @@ def generate_sentences(count: int = 5, style: str = "lorem", min_words: int = 6,
     When NOT to use:
         Not suitable for real-time production decision-making without
         human review of results.
+
+    Args:
+        count (int): The count to analyze or process.
+        style (str): The style to analyze or process.
+        min_words (int): The min words to analyze or process.
+        max_words (int): The max words to analyze or process.
+        api_key (str): The api key to analyze or process.
+
     Behavioral Transparency:
         - Side Effects: This tool is read-only and produces no side effects. It does not modify
           any external state, databases, or files. All output is computed in-memory and returned
@@ -219,6 +234,13 @@ def generate_words(count: int = 50, style: str = "lorem", capitalize: bool = Fal
     When NOT to use:
         Not suitable for real-time production decision-making without
         human review of results.
+
+    Args:
+        count (int): The count to analyze or process.
+        style (str): The style to analyze or process.
+        capitalize (bool): The capitalize to analyze or process.
+        api_key (str): The api key to analyze or process.
+
     Behavioral Transparency:
         - Side Effects: This tool is read-only and produces no side effects. It does not modify
           any external state, databases, or files. All output is computed in-memory and returned
@@ -278,6 +300,12 @@ def generate_structured(template: str = "article", style: str = "lorem", api_key
     When NOT to use:
         Not suitable for real-time production decision-making without
         human review of results.
+
+    Args:
+        template (str): The template to analyze or process.
+        style (str): The style to analyze or process.
+        api_key (str): The api key to analyze or process.
+
     Behavioral Transparency:
         - Side Effects: This tool is read-only and produces no side effects. It does not modify
           any external state, databases, or files. All output is computed in-memory and returned
