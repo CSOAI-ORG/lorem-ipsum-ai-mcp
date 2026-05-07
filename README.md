@@ -1,3 +1,5 @@
+[![lorem-ipsum-ai-mcp MCP server](https://glama.ai/mcp/servers/CSOAI-ORG/lorem-ipsum-ai-mcp/badges/card.svg)](https://glama.ai/mcp/servers/CSOAI-ORG/lorem-ipsum-ai-mcp)
+
 <div align="center">
 
 [![GitHub stars](https://img.shields.io/github/stars/CSOAI-ORG/lorem-ipsum-ai-mcp)](https://github.com/CSOAI-ORG/lorem-ipsum-ai-mcp/stargazers)
