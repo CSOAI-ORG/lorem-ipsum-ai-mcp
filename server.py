@@ -81,7 +81,22 @@ def _generate_paragraph(word_pool: list, min_sentences: int = 3, max_sentences: 
 
 @mcp.tool()
 def generate_paragraphs(count: int = 3, style: str = "lorem", start_with_lorem: bool = True, api_key: str = "") -> str:
-    """Generate placeholder paragraphs. Styles: lorem (classic), tech, business, nature, food."""
+    """Generate placeholder paragraphs. Styles: lorem (classic), tech, business, nature, food.
+
+    Behavior:
+        This tool generates structured output without modifying external systems.
+        Output is deterministic for identical inputs. No side effects.
+        Free tier: 10/day rate limit. Pro tier: unlimited.
+        No authentication required for basic usage.
+
+    When to use:
+        Use this tool when you need structured analysis or classification
+        of inputs against established frameworks or standards.
+
+    When NOT to use:
+        Not suitable for real-time production decision-making without
+        human review of results.
+    """
     allowed, msg, tier = check_access(api_key)
     if not allowed:
         return json.dumps({"error": msg, "upgrade_url": "https://meok.ai/pricing"})
@@ -116,7 +131,22 @@ def generate_paragraphs(count: int = 3, style: str = "lorem", start_with_lorem: 
 
 @mcp.tool()
 def generate_sentences(count: int = 5, style: str = "lorem", min_words: int = 6, max_words: int = 15, api_key: str = "") -> str:
-    """Generate individual placeholder sentences with configurable length."""
+    """Generate individual placeholder sentences with configurable length.
+
+    Behavior:
+        This tool generates structured output without modifying external systems.
+        Output is deterministic for identical inputs. No side effects.
+        Free tier: 10/day rate limit. Pro tier: unlimited.
+        No authentication required for basic usage.
+
+    When to use:
+        Use this tool when you need structured analysis or classification
+        of inputs against established frameworks or standards.
+
+    When NOT to use:
+        Not suitable for real-time production decision-making without
+        human review of results.
+    """
     allowed, msg, tier = check_access(api_key)
     if not allowed:
         return json.dumps({"error": msg, "upgrade_url": "https://meok.ai/pricing"})
@@ -146,7 +176,22 @@ def generate_sentences(count: int = 5, style: str = "lorem", min_words: int = 6,
 
 @mcp.tool()
 def generate_words(count: int = 50, style: str = "lorem", capitalize: bool = False, api_key: str = "") -> str:
-    """Generate a specific number of placeholder words."""
+    """Generate a specific number of placeholder words.
+
+    Behavior:
+        This tool generates structured output without modifying external systems.
+        Output is deterministic for identical inputs. No side effects.
+        Free tier: 10/day rate limit. Pro tier: unlimited.
+        No authentication required for basic usage.
+
+    When to use:
+        Use this tool when you need structured analysis or classification
+        of inputs against established frameworks or standards.
+
+    When NOT to use:
+        Not suitable for real-time production decision-making without
+        human review of results.
+    """
     allowed, msg, tier = check_access(api_key)
     if not allowed:
         return json.dumps({"error": msg, "upgrade_url": "https://meok.ai/pricing"})
@@ -176,7 +221,22 @@ def generate_words(count: int = 50, style: str = "lorem", capitalize: bool = Fal
 
 @mcp.tool()
 def generate_structured(template: str = "article", style: str = "lorem", api_key: str = "") -> str:
-    """Generate structured placeholder content. Templates: article, email, list, table, form, card."""
+    """Generate structured placeholder content. Templates: article, email, list, table, form, card.
+
+    Behavior:
+        This tool generates structured output without modifying external systems.
+        Output is deterministic for identical inputs. No side effects.
+        Free tier: 10/day rate limit. Pro tier: unlimited.
+        No authentication required for basic usage.
+
+    When to use:
+        Use this tool when you need structured analysis or classification
+        of inputs against established frameworks or standards.
+
+    When NOT to use:
+        Not suitable for real-time production decision-making without
+        human review of results.
+    """
     allowed, msg, tier = check_access(api_key)
     if not allowed:
         return json.dumps({"error": msg, "upgrade_url": "https://meok.ai/pricing"})
