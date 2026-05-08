@@ -1,45 +1,58 @@
-[![lorem-ipsum-ai-mcp MCP server](https://glama.ai/mcp/servers/CSOAI-ORG/lorem-ipsum-ai-mcp/badges/score.svg)](https://glama.ai/mcp/servers/CSOAI-ORG/lorem-ipsum-ai-mcp)
-[![MCP Registry](https://img.shields.io/badge/MCP_Registry-Published-green)](https://registry.modelcontextprotocol.io)
-[![PyPI](https://img.shields.io/pypi/v/lorem-ipsum-ai-mcp)](https://pypi.org/project/lorem-ipsum-ai-mcp/)
-
-[![lorem-ipsum-ai-mcp MCP server](https://glama.ai/mcp/servers/CSOAI-ORG/lorem-ipsum-ai-mcp/badges/card.svg)](https://glama.ai/mcp/servers/CSOAI-ORG/lorem-ipsum-ai-mcp)
-
 <div align="center">
 
-[![GitHub stars](https://img.shields.io/github/stars/CSOAI-ORG/lorem-ipsum-ai-mcp)](https://github.com/CSOAI-ORG/lorem-ipsum-ai-mcp/stargazers)
+# Lorem Ipsum Ai MCP
 
-# uloremU ipsumU aiU mcp
+**MCP server for lorem ipsum ai mcp operations**
 
-****
-
-[![npm version](https://img.shields.io/npm/v/@meok-ai/lorem-ipsum-ai-mcp)](https://www.npmjs.com/package/@meok-ai/lorem-ipsum-ai-mcp)
+[![PyPI](https://img.shields.io/pypi/v/meok-lorem-ipsum-ai-mcp)](https://pypi.org/project/meok-lorem-ipsum-ai-mcp/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![MEOK AI Labs](https://img.shields.io/badge/MEOK_AI_Labs-255+_servers-purple)](https://meok.ai)
-
-[Installation](#installation) · [Docs](https://csoai.org) · [Report Bug](https://github.com/CSOAI-ORG/lorem-ipsum-ai-mcp/issues)
+[![MEOK AI Labs](https://img.shields.io/badge/MEOK_AI_Labs-MCP_Server-purple)](https://meok.ai)
 
 </div>
 
----
+## Overview
+
+Lorem Ipsum Ai MCP provides AI-powered tools via the Model Context Protocol (MCP).
+
+## Tools
+
+| Tool | Description |
+|------|-------------|
+| `generate_paragraphs` | Generate placeholder paragraphs. Styles: lorem (classic), tech, business, nature |
+| `generate_sentences` | Generate individual placeholder sentences with configurable length. |
+| `generate_words` | Generate a specific number of placeholder words. |
+| `generate_structured` | Generate structured placeholder content. Templates: article, email, list, table, |
 
 ## Installation
 
 ```bash
-pip install lorem-ipsum-ai-mcp
-# or
-npm install -g @meok-ai/lorem-ipsum-ai-mcp
+pip install meok-lorem-ipsum-ai-mcp
 ```
 
-## Quick Start
+## Usage with Claude Desktop
 
-See the project repository for full documentation and examples.
+Add to your Claude Desktop MCP config (`claude_desktop_config.json`):
 
-## Enterprise Support
+```json
+{
+  "mcpServers": {
+    "lorem-ipsum-ai": {
+      "command": "python",
+      "args": ["-m", "meok_lorem_ipsum_ai_mcp.server"]
+    }
+  }
+}
+```
 
-- 📧 nicholas@csoai.org
-- 🌐 [CSOAI.org](https://csoai.org)
+## Usage with FastMCP
+
+```python
+from mcp.server.fastmcp import FastMCP
+
+# This server exposes 4 tool(s) via MCP
+# See server.py for full implementation
+```
 
 ## License
 
-MIT © [CSOAI](https://csoai.org)
-<!-- mcp-name: io.github.CSOAI-ORG/lorem-ipsum-ai-mcp -->
+MIT © [MEOK AI Labs](https://meok.ai)
