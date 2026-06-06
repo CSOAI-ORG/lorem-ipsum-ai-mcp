@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
-"""Generate placeholder text in various styles and structures. — MEOK AI Labs."""
+"""
+Generate placeholder text in various styles and structures. — MEOK AI Labs."""
 
 import sys, os
-sys.path.insert(0, os.path.expanduser('~/clawd/meok-labs-engine/shared'))
 from auth_middleware import check_access
 
 import json, random
@@ -120,7 +120,7 @@ def generate_paragraphs(count: int = 3, style: str = "lorem", start_with_lorem: 
     """
     allowed, msg, tier = check_access(api_key)
     if not allowed:
-        return json.dumps({"error": msg, "upgrade_url": "https://meok.ai/pricing"})
+        return json.dumps({"error": msg, "upgrade_url": "https://councilof.ai"})
     if err := _rl():
         return err
 
@@ -192,7 +192,7 @@ def generate_sentences(count: int = 5, style: str = "lorem", min_words: int = 6,
     """
     allowed, msg, tier = check_access(api_key)
     if not allowed:
-        return json.dumps({"error": msg, "upgrade_url": "https://meok.ai/pricing"})
+        return json.dumps({"error": msg, "upgrade_url": "https://councilof.ai"})
     if err := _rl():
         return err
 
@@ -258,7 +258,7 @@ def generate_words(count: int = 50, style: str = "lorem", capitalize: bool = Fal
     """
     allowed, msg, tier = check_access(api_key)
     if not allowed:
-        return json.dumps({"error": msg, "upgrade_url": "https://meok.ai/pricing"})
+        return json.dumps({"error": msg, "upgrade_url": "https://councilof.ai"})
     if err := _rl():
         return err
 
@@ -323,7 +323,7 @@ def generate_structured(template: str = "article", style: str = "lorem", api_key
     """
     allowed, msg, tier = check_access(api_key)
     if not allowed:
-        return json.dumps({"error": msg, "upgrade_url": "https://meok.ai/pricing"})
+        return json.dumps({"error": msg, "upgrade_url": "https://councilof.ai"})
     if err := _rl():
         return err
 
@@ -396,5 +396,8 @@ def generate_structured(template: str = "article", style: str = "lorem", api_key
     })
 
 
-if __name__ == "__main__":
+def main():
     mcp.run()
+
+if __name__ == '__main__':
+    main()

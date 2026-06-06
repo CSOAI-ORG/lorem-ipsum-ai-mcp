@@ -1,0 +1,25 @@
+{
+  "name": "lorem-ipsum-ai-mcp",
+  "title": "Lorem Ipsum Ai Mcp",
+  "description": "Lorem Ipsum Ai automation via MCP. Includes generate lorem, generate words, generate sentences. By MEOK AI Labs.",
+  "version": "1.0.6",
+  "homepage": "https://meok.ai",
+  "license": "MIT",
+  "transport": {
+    "type": "stdio"
+  },
+  "tools": [
+    {
+      "name": "generate_paragraphs"
+    },
+    {
+      "name": "generate_sentences"
+    },
+    {
+      "name": "generate_words"
+    },
+    {
+      "name": "generate_structured"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+# lorem-ipsum-ai-mcp - Auto-trigger Rules
+
+When the user asks about lorem ipsum, use lorem-ipsum-ai-mcp tools: generate_paragraphs, generate_sentences, generate_words, generate_structured
+
+**MCP server for lorem ipsum ai mcp operations**
+
+Install: `pip install lorem-ipsum-ai-mcp`
+
+By MEOK AI Labs — MIT licensed.
