@@ -1,0 +1,31 @@
+# Lorem Ipsum Ai MCP
+
+> MEOK AI Labs — Generate placeholder text in various styles
+
+`lorem-ipsum-ai-mcp` is a Model Context Protocol (MCP) server by MEOK AI Labs.
+
+## Install
+
+```bash
+pip install lorem-ipsum-ai-mcp
+```
+
+Or run without installing:
+
+```bash
+uvx lorem-ipsum-ai-mcp
+```
+
+## Tools
+
+- `generate_paragraphs` — Generate placeholder paragraphs. Styles: lorem (classic), tech, business, nature, food.
+- `generate_sentences` — Generate individual placeholder sentences with configurable length.
+- `generate_words` — Generate a specific number of placeholder words.
+- `generate_structured` — Generate structured placeholder content. Templates: article, email, list, table, form, card.
+
+## Links
+
+- Source: https://github.com/CSOAI-ORG/lorem-ipsum-ai-mcp
+- PyPI: https://pypi.org/project/lorem-ipsum-ai-mcp/
+- MEOK AI Labs: https://meok.ai
+- Council of AI: https://councilof.ai
