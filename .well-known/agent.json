@@ -1,0 +1,59 @@
+{
+  "name": "lorem-ipsum-ai-mcp",
+  "description": "Lorem Ipsum Ai MCP Server by MEOK AI Labs",
+  "url": "https://proofof.ai/scorecard/lorem-ipsum-ai-mcp.html",
+  "version": "1.0.6",
+  "protocolVersion": "0.2.0",
+  "provider": {
+    "organization": "MEOK AI Labs",
+    "url": "https://meok.ai"
+  },
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false
+  },
+  "defaultInputModes": [
+    "text"
+  ],
+  "defaultOutputModes": [
+    "text"
+  ],
+  "skills": [
+    {
+      "id": "generate_paragraphs",
+      "name": "Generate Paragraphs",
+      "description": "generate_paragraphs via lorem-ipsum-ai-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "generate_sentences",
+      "name": "Generate Sentences",
+      "description": "generate_sentences via lorem-ipsum-ai-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "generate_words",
+      "name": "Generate Words",
+      "description": "generate_words via lorem-ipsum-ai-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "generate_structured",
+      "name": "Generate Structured",
+      "description": "generate_structured via lorem-ipsum-ai-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    }
+  ]
+}

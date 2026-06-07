@@ -1,0 +1,22 @@
+{
+  "acpVersion": "0.1",
+  "agent": {
+    "name": "lorem-ipsum-ai-mcp",
+    "description": "Lorem Ipsum Ai MCP Server by MEOK AI Labs",
+    "version": "1.0.6",
+    "provider": "MEOK AI Labs",
+    "interfaces": [
+      {
+        "type": "mcp",
+        "transport": "stdio",
+        "package": "lorem-ipsum-ai-mcp"
+      }
+    ],
+    "capabilities": [
+      "generate_paragraphs",
+      "generate_sentences",
+      "generate_words",
+      "generate_structured"
+    ]
+  }
+}
