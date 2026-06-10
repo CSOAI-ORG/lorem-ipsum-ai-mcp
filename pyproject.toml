@@ -3,7 +3,7 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 [project]
 name = "lorem-ipsum-ai-mcp"
-version = "1.0.6"
+version = "1.0.7"
 readme = "README.md"
 description = "Lorem Ipsum Ai automation via MCP. Includes generate lorem, generate words, generate sentences. By MEOK AI Labs."
 license = {file = "LICENSE"}
